@@ -1,0 +1,169 @@
+/* Estilos para el contenido principal */
+.contenido {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Margen para centrar el contenedor */
+    padding: 20px;
+    background-color: #f5f5f5; /* Color de fondo del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#fondo_reporte{
+    width: 100%;
+    height: 100vh; /* Altura del cuerpo al 100% del viewport height */
+    background-image: linear-gradient(to top, #79c1e7, #5ccbdc, #63d2c2, #89d59f, #b9d281);
+}
+
+#fondo_vendidos{
+    width: 100%;
+    height: 100vh; /* Altura del cuerpo al 100% del viewport height */
+    background-image: linear-gradient(to top, #79c1e7, #5ccbdc, #63d2c2, #89d59f, #b9d281);
+}
+
+.contenido-boleto {
+    margin-left: 100px;
+    /* Ajusta el margen lateral según sea necesario */
+    padding: 20px;
+
+}
+
+v
+
+/* Estilos para la tabla de asientos */
+#tabla-asientos {
+    border-collapse: collapse;
+    /* Fusiona los bordes de las celdas */
+    width: 40%;
+    /* Ajusta el ancho de la tabla al 100% del contenedor */
+    margin: 20px;
+    /* Agrega un margen de 20px alrededor de la tabla */
+}
+
+#tabla-asientos td {
+    border: 1px solid black;
+    /* Agrega bordes de 1px a las celdas */
+    padding: 30px;
+    /* Añade un relleno de 10px dentro de cada celda */
+    text-align: center;
+    /* Centra el contenido de las celdas */
+}
+
+/* Estilos para la tabla de boletos vendidos */
+#tabla-boleto {
+
+    background-color: white;
+    border-collapse: collapse;
+    /* Fusiona los bordes de las celdas */
+    width: 90%;
+    /* Ajusta el ancho de la tabla al 100% del contenedor */
+    margin: 20px;
+    /* Agrega un margen de 20px alrededor de la tabla */
+    border-radius: 20px;
+}
+
+#tabla-boleto th,
+#tabla-boleto td{
+    border: 1px solid black;
+    /* Agrega bordes de 1px a las celdas */
+    padding: 10px;
+    /* Añade un relleno de 10px dentro de cada celda */
+    text-align: center;
+    /* Centra el contenido de las celdas */
+}
+
+.tr{
+
+    background-color: #246335;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+
+.tr:nth-child(even){
+    background-color: #ddd;
+}
+
+#tr:hover{
+    background-color: #369681;
+    color: white;
+}
+
+#btn_cancelar{
+    background-color: rgb(241, 170, 170);
+    border-radius: 10px;
+    border: 1;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+  }
+
+  canvas#graficoVentas {
+    max-width: 100%; /* Ajustar el ancho máximo del lienzo al contenedor */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilos para la impresión */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    .imprimir,
+    .imprimir * {
+        visibility: visible;
+    }
+
+    .imprimir {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    /* Ocultar la columna "Acciones" en la impresión */
+    .imprimir .columna-acciones {
+        display: none;
+    }
+
+    /* Estilos para centrar el contenido en A4 */
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Estilos para el diseño de la boleta */
+.boleta-container {
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #f2f2f2;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.nombre-empresa {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+

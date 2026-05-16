@@ -1,0 +1,158 @@
+.bodyLogin {
+  width: 100vw; /* Ancho del contenedor igual al 100% del ancho de la ventana */
+  height: 100vh; /* Alto del contenedor igual al 100% del alto de la ventana */
+  background-size: cover; /* La imagen se ajustará para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-color: #e4e9f7; /* Color de fondo en caso de que la imagen no cubra todo el contenedor */
+}
+
+.loginDiv {
+  top: 5vh;
+  position: relative;
+  background-color: white;
+  width: 100%;
+  border-radius: 40px;
+  height: auto;
+}
+.loginDiv1 {
+  top: 5vh;
+  position: relative;
+  background-color: white;
+  width: 100%;
+  border-radius: 40px;
+  height: auto;
+}
+.loginsinDiv {
+  top: 5vh;
+  margin-left: 100px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 40px;
+  height: auto;
+}
+
+.contenido {
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #eeeeee;
+  border-radius: 100px;
+  padding: 14px !important;
+}
+
+.contenido input {
+  position: relative;
+  padding-left: 30px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+}
+.contenido i {
+  color: rgb(0, 0, 0);
+  z-index: 999;
+  transition: all 2s ease 0s;
+}
+.contenido:hover i {
+  color: rgb(255, 255, 255) !important;
+  transition: all 2s ease 0s;
+}
+
+.loginContainer {
+  padding: 50px;
+}
+.loginTitle {
+  width: 100%;
+  text-align: center;
+}
+.loginTitle h5 {
+  font-weight: bold;
+}
+.loginTitle h4 {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.customImput {
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #eeeeee;
+  border-radius: 100px;
+  padding: 14px !important;
+}
+.customImput input {
+  position: relative;
+  padding-left: 30px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+}
+.customImput i {
+  position: absolute;
+  color: darkgray;
+  z-index: 999;
+  transition: all 2s ease 0s;
+}
+.customImput:hover i {
+  color: rgb(0, 11, 128) !important;
+  transition: all 2s ease 0s;
+}
+.btnLogin {
+  border-radius: 100px;
+}
+
+.bolita {
+  border-radius: 50%;
+  text-align: center;
+}
+.error {
+  width: 100%;
+}
+/* ESTILO DEL DIV QUE CONTENTRÁ EL INPUT */
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+/* ESTILO DEL INPUT*/
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/* ESTILO DEL BOTÓN */
+.boton-standar-rw {
+  margin: 5px;
+  background-color: white;
+  color: rgb(245, 61, 58);
+  border-radius: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgb(245, 61, 58);
+  transition: all 0.3s ease 0s;
+  width: 12em;
+  padding: 10px;
+}
+/* ESTILO DEL BOTÓN CON HOVER DE MOUSE */
+.boton-standar-rw:hover {
+  color: white;
+  background-color: rgb(245, 61, 58);
+}
+.bolitaBoton {
+  border-radius: 50px;
+  text-align: center;
+}
+.logo_arriba img {
+  width: 200px;
+  height: auto;
+}
+.general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
